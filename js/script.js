@@ -53,7 +53,10 @@ $(function() {
   var header01 = $('.header-inner-wrap01');
   $(window).scroll(function() {
     if($(this).scrollTop() > 10) {
-      header01.css('background-color','white');
+      header01.css({
+        'background-color':'white',
+        'box-shadow':'1px 1px 8px grey'
+      });
     }else {
       header01.css('background-color','transparent');
     }
@@ -68,15 +71,7 @@ $(function() {
       skill.fadeOut(800);
     }
   });
-  var service = $('.service-inner-box-item');
-  service.hide();
-  $(window).scroll(function() {
-    if($(this).scrollTop() > 1200) {
-      service.fadeIn(1000);
-    }else {
-      service.fadeOut(1000);
-    }
-  });
+
   var works = $('.works-img');
   works.hide();
   $(window).scroll(function() {
