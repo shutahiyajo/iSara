@@ -107,16 +107,18 @@
     &-wrap {
       display: flex;
       justify-content: space-around;
+      align-items: center;
       .skill-inner-box {
         width: 40%;
         text-align: center;
         line-height: 180%;
         .skill-bg-gray {
-          background-color: rgba(48, 47, 47, 0.568);
+          background-color: rgba(66, 65, 65, 0.9);
           margin-bottom: 50px;
           padding: 10px;
-          height: 160px;
+          height: 100%;
           border-radius: 10px;
+
         }
         .skill-box-title {
           font-size: 25px;
