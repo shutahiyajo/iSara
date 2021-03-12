@@ -1,0 +1,24 @@
+.c-title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  &-item {
+    padding-bottom: 20px;
+    padding-top: 30px;
+    border-bottom: 2px solid rgb(173, 172, 172);
+    display: inline-block;
+    margin-bottom: 80px;
+  }
+  .none {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+  }
+}
+.white {
+  color: white;
+}
+
+.red {
+  color: red;
+}

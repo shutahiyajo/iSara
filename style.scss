@@ -1,0 +1,29 @@
+
+// config
+@import "./partials/config/_variable";
+
+// foundation
+@import "./partials/Foundation/_base";
+@import "./partials/Foundation/_mixin";
+@import "./partials/Foundation/_reset";
+
+// layout
+@import "./partials/Layout/_footer";
+@import "./partials/Layout/_header";
+@import "./partials/Layout/_inner";
+
+// object
+  // conponent
+  @import "./partials/Object/component/_box";
+  @import "./partials/Object/component/_form";
+  @import "./partials/Object/component/_news";
+  @import "./partials/Object/component/_title";
+
+  // poroject
+
+  // utility
+  @import "./partials/Object/utility/_display";
+
+// page  
+@import "./partials/page/_contect";
+
