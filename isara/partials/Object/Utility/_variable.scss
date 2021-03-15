@@ -1,0 +1,28 @@
+
+$color-base: black;
+$isara-color: #EBB94D;
+$btn-color: #DA6B65;
+$hover-color: #D94940;
+
+* {
+  box-sizing: border-box;
+}
+
+.yellow-txt {
+  color: $isara-color;
+}
+
+.bg-white {
+  background-color: white;
+  padding: 40px 60px;
+  margin: 20px;
+  border: 2px solid $isara-color;
+}
+
+.text-active {
+ display: block;
+}
+
+* {
+  line-height: 140%;
+}

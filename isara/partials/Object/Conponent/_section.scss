@@ -1,0 +1,8 @@
+.section{
+ max-width: 1170px;
+ margin: 0 auto;
+ text-align: center;
+ @media(max-width:500px) {
+  max-width: 99%;
+}
+}

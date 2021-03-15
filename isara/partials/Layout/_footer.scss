@@ -1,0 +1,39 @@
+footer {
+  padding: 30px 0;
+  background-color: #ECECEC;
+  line-height: 140%;
+  letter-spacing: 2px;
+  .footer-inner {
+    &-txt {
+      font-size: 10px;
+    }
+    .conversion-sns {
+      text-decoration: none;
+      color: white;
+      font-size: 8px;
+      margin-bottom: 40px;
+    }
+    .twitter {
+      background-color: rgb(50, 180, 231);
+      display: inline-block;   
+      border-radius: 2px;
+      padding: 0 10px;
+      border-radius: 3px;
+    }
+    .blue {
+      background-color: rgb(61, 61, 223);
+      display: inline-block;
+      border-radius: 2px;
+      padding: 0 10px;
+      border-radius: 3px;
+    }
+  }
+  .footer-last-txt {
+    font-size: 10px;
+
+  }
+  .skyblue {
+    color: skyblue;
+    
+  }
+}
