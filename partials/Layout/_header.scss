@@ -5,7 +5,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    // background-attachment: fixed;
     &-wrap01 {
       padding: 20px 0;
       position: fixed;
@@ -61,6 +61,25 @@ header {
       .header-txt {
         padding-bottom: 370px;
         text-shadow: 1px 1px 1px rgb(14, 12, 12);
+      }
+    }
+  }
+  .totop {
+    .fas {
+      color: rgb(3, 3, 3);
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      position: fixed;
+      z-index: 20;
+      background-color: #b7b5b8c2;
+      border-radius: 50%;
+      display: inline-block;
+      padding: 20px;        
+      &:hover {
+        background-color: #5b5a5c;
+        transition: .3s;
+        color: white;
       }
     }
   }

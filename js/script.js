@@ -81,6 +81,18 @@ $(function() {
       works.fadeOut(1000);
     }
   });
-
+  let pagetop = $('.totop');
+  pagetop.hide();
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 80) {
+      pagetop.fadeIn(300);
+    } else {
+      pagetop.fadeOut(300);
+    }
+  });
+  pagetop.click(function () {
+    $('body, html').animate({ scrollTop: 0 }, 500);
+    return false;
+  });
 });
 

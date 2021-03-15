@@ -80,15 +80,15 @@
             transition: .4s;
           }
         }
-        .fa-twitter-square {
+        .fa-twitter {
           color: $twitter;
         }
         .fa-facebook-square {
           color: $facebook;
         }
-        .fa-instagram-square {
+        .fa-instagram {
           color: $instagram;
-          font-family: "Font Awesome 6 Free"
+          
         }
       }
     }
@@ -97,26 +97,26 @@
 .skill {
   &-inner {
     background-image: url(../img/skill2.jpg);
-    background-position: center;
+    background-position: top;
     background-size: cover;
-    background-attachment: fixed;
+    // background-attachment: fixed;
     padding-bottom: 50px;
     width: 100%;
     color: white;
     padding-top: 50px ;
+    text-shadow: 1px 1px 1px rgb(14, 12, 12);
     &-wrap {
       display: flex;
       justify-content: space-around;
       align-items: center;
       .skill-inner-box {
-        width: 40%;
+        width: 30%;
         text-align: center;
         line-height: 180%;
         .skill-bg-gray {
-          background-color: rgba(66, 65, 65, 0.9);
+          background-color: rgba(158, 154, 154, 0.9);
           margin-bottom: 50px;
           padding: 10px;
-          height: 100%;
           border-radius: 10px;
         }
         .skill-box-title {
@@ -131,6 +131,11 @@
         .fa-js-square {
           font-size: 40px;
           color: rgb(236, 236, 120);
+          margin-bottom: 20px;
+        }
+        .fa-wordpress {
+          font-size: 40px;
+          color: rgb(62, 62, 236);
           margin-bottom: 20px;
         }
         .skill-box-txt {
@@ -176,6 +181,7 @@
         .service-img {
           width: 280px;
           margin:0 50px;
+          box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.555);
         }
         .service-title {
           font-size: 25px;
@@ -184,6 +190,9 @@
           padding-bottom: 5px;
           display: block;
           border-bottom: 1px solid rgb(173, 172, 172);
+          @media(max-width:500px) {
+            font-size: 20px;
+          } 
         }
         .service-list {
           &-item {
@@ -202,6 +211,7 @@
           width: 280px;
           margin:0 50px;
           order: 2;
+          box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.555);
         }
         .service-title {
           font-size: 25px;
@@ -210,6 +220,9 @@
           padding-bottom: 5px;
           display: block;
           border-bottom: 1px solid rgb(173, 172, 172);
+          @media(max-width:500px) {
+            font-size: 20px;
+          } 
         }
         .service-list {
           &-item {
@@ -268,7 +281,7 @@
     background-image: url(../img/works-bg.png);
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
+    // background-attachment: fixed;
     background-color: rgba(255,255,255,0.1);
     background-blend-mode: lighten;
     padding-bottom: 80px;
@@ -335,6 +348,9 @@
           }
           li {
             margin: 0 10px;
+            @media(max-width:500px) {
+              margin: 0 20px;
+            }
             .works-icon {
               font-size: 17px;   
               cursor: pointer;
@@ -346,6 +362,11 @@
               color: rgb(104, 105, 105);
               transition: .3s;
               position: relative;
+              @media(max-width:500px) {
+                font-size: 15px;
+                width: 100%;
+                padding: 6px 10px;
+              }
               &:hover {
                 background-color: rgb(102, 103, 104);
                 color: rgb(247, 244, 244);
